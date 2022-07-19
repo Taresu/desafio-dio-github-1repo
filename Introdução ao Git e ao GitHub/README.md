@@ -33,7 +33,7 @@
   - git config --global **"property" "value"**
   - git config --global --unset **"property"**
 
-    **OBS: Press 'q' to exit! **
+    **OBS: Press 'q' to exit!**
 
   #### :space_invader: Conflicts:
 
