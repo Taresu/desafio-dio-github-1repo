@@ -6,7 +6,7 @@
 
 **1.** Type ssh-keygen -t ed25519 -C **mail@provider.com** \
 **2.** Type cd /c/users/**User**/.ssh/ \
-**3.** Type cat ed25519.pub     **(this is the public key)** \
+**3.** Type cat id_ed25519.pub     **(this is the public key)** \
 **4.** Copy and paste this public key in [SSH and GPG keys GitHub Page](https://github.com/settings/keys) \
 **5.** Type eval $(ssh-agent -s) \
 **6.** Type ssh-add id_ed25519     **(this is the private key)** 
